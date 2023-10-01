@@ -1,38 +1,444 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.services,
+.projects,
+.about,
+.contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    background: url("./assets/electrical-services-IMG/energy-plants-emsd-cbm-post-banner.jpg");
+    color: #fff;
+    background-position:center;
+    background-size:cover;
+    height:90vh;
+    width:100%;
+    z-index: 2;
   }
+
+  .home-hero{
+text-align: center;
+background-color:rgba(64, 47, 161, 0.8);
+margin-left: 180px;
+margin-right: 180px;
+  }
+
+.hero-h1{
+    color:#efc75e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-btn{
+   margin-top:250px;
+    text-align: center;
+}
+
+.page-icon {
+  margin-left: 1rem;
+  font-size: 100px;
+}
+
+.testimonials{
+    width:100%;
+    height:900px;
+    background-color:azure; 
+}
+
+.testimonials h1{
+  font-size: 30px;
+}
+
+.testimonial-all-containers{
+  display:inline-block;
+  margin-left:300px;
+  margin-top:50px;
+  outline-style:inset;
+  outline-width: 10px;
+  outline-width: 50%;
+  background-color: cadetblue;
+  width: 800px;
+}
+
+.testimonial-container{
+  margin-top:60px;
+  margin-left:50px;
+  margin-bottom: 60px;
+  margin-right:60px;
+  width: 700px;
+  height:100px,;
+ /* font-size: 14px; */
+  background-color: rgb(125, 213, 216);
+
+  }
+
+
+.testimonials h1{
+    text-align: center;
+    font-weight: bolder;
+    padding-top:20px;
+}
+
+.testimonial-1{
+    /* padding-top:60px; */
+    text-align:initial;
+    margin-left:30px;
+   padding-bottom:40px;
+    margin-right:30px;
+}
+
+.riaccount{
+  height:70px;
+  width:70px;
+ margin-left:0px;
+ margin-top:0px;
+ /* text-align:center; */
+ display: inline-block;
+ overflow-y: visible;
+
+}
+.account-icon{
+  /* display: inline-flex; */
+/* gap:0; */
+}
+.icon-text{
+display:inline-flex;
+}
+.profile-info h4{
+margin-top:15px;
+margin-bottom:-20px;
+}
+
+.advertisement-container{
+  width: 100% auto;
+  height:400px;
+  background-color:cadetblue;
+  margin-top:150px;
+}
+
+.advertisement{
+padding-right:110px;
+font-size: 35px;
+padding-top:90px;
+font-family: 'Young Serif', serif;
+font-weight:bold;
+display: inline-flex;
+}
+.advertisement p{
+  padding-left:200px;
+}
+.advertisement button{
+margin-left:-50px;
+margin-top:90px;
+margin-right: 10%;
+height:fit-content;
+font-size: 12px;
+/* font-weight:bold; */
+font-family: 'Young Serif', serif;
+}
+
+.fa-solid{
+  padding-left: 10px;
+}
+
+
+
+.footer{
+  height:450px;
+  width:100% auto;
+  background-color: #000;
+}
+.footer-logo{
+  margin-left:100px;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.footer-nav-logo{
+  width: 100px;
+  height:100px;
+  animation: rotation 5s infinite linear;
+  margin-left:-10px;
+  margin-top:1px;
+}
+.footer-logo-text{
+  color:#bf8d39;
+  font-family: 'Young Serif', serif;
+  padding-top:10px;
+}
+.social-icons{
+  color:white;
+  height:60px;
+  width:60px;
+  padding:10px;
+}
+.footer-contents{
+  display: inline-flex;
+justify-content:space-between;
+}
+.footer-socials{
+  margin-left:400px;
+}
+.footer-p{
+  justify-content: space-between;
+  margin-left:180px;
+}
+.footer-p p{
+  padding-bottom: 35px;
+  color:aquamarine;
+}
+.footer-items{
+  color:white;
+  margin-top:1px;
+  margin-left:400px;
+}
+.footer-form{
+
+  margin-left:160px;
+  margin-top:15px;
+
+padding:20px;
+}
+.filledBasic{
+background-color: white;
+width:300px;
+margin-bottom:20px;
+}
+.text-color{
+  color:#fff;
+  display:flex;
+}
+.email-body{
+  background-color: white;
+  width:300px;
+  margin-bottom:20px;
+}
+.txt1{
+  margin-bottom: 20px;
+}
+.txt2{
+  margin-bottom: 20px;
+}
+.txt2 button{
+  font-family: Young serif, serif;
+  font-weight:lighter;
+}
+.txt3{
+  margin-bottom:20px;
+}
+
+.submit-btn{
+  background-color: rgb(17, 95, 184);
+}
+
+
+#error-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+@media screen and (max-width: 960px) {
+  .home,
+  .contact {
+    font-size: 1.5rem;
+  }
+  .home {
+    font-size: 0.6rem;
+  }
+  .home-hero{
+    margin-left:0;
+    margin-right: 0;
+  }
+
+  .page-icon {
+    margin-left: 1rem;
+    font-size: 80px;
+  }
+  .testimonials{
+    width:100%;
+    height:900px;
+    background-color:azure; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.testimonials h1{
+  font-size: 17px;
+}
+
+.testimonial-all-containers{
+  display:inline-block;
+  margin-left:12px;
+  margin-top:50px;
+  outline-style:inset;
+  outline-width: 5px;
+  outline-width: 25%;
+  background-color: cadetblue;
+  width: 410px;
+}
+
+.testimonial-container{
+  margin-top:30px;
+  margin-left:10px;
+  margin-bottom: 30px;
+  margin-right:30px;
+  width: 390px;
+  height:100px,;
+ font-size: 14px;
+  background-color: rgb(125, 213, 216);
+
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.testimonials h1{
+    text-align: center;
+    font-weight: bolder;
+    padding-top:20px;
+}
+
+.testimonial-1{
+    /* padding-top:60px; */
+    text-align:initial;
+    margin-left:15px;
+   padding-bottom:20px;
+    margin-right:15px;
+}
+
+.riaccount{
+  height:70px;
+  width:70px;
+ margin-left:0px;
+ margin-top:0px;
+ /* text-align:center; */
+ display: inline-block;
+ overflow-y: visible;
+
+}
+.account-icon{
+  /* display: inline-flex; */
+/* gap:0; */
+}
+.icon-text{
+display:inline-flex;
+}
+.profile-info h4{
+margin-top:15px;
+margin-bottom:-20px;
+}
+
+.advertisement-container{
+  width: 100% auto;
+  height:200px;
+  background-color:cadetblue;
+  margin-top:1px;
+}
+
+.advertisement{
+/* padding-right:110px; */
+font-size: 18px;
+padding-top:10px;
+
+font-family: 'Young Serif', serif;
+font-weight:bold;
+display: inline-flex;
+}
+.advertisement p{
+  padding-left:20px;
+}
+.advertisement button{
+margin-left:-30px;
+margin-top:120px;
+margin-right: -5%;
+height:fit-content;
+font-size: 12px;
+/* font-weight:bold; */
+font-family: 'Young Serif', serif;
+}
+
+
+.footer{
+  height:700px;
+  width:100% auto;
+  background-color: #000;
+}
+.footer-logo{
+  margin-left:100px;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.footer-nav-logo{
+  width: 100px;
+  height:100px;
+  animation: rotation 5s infinite linear;
+  margin-left:-100px;
+  margin-top:1px;
+}
+.footer-logo-text{
+  color:#bf8d39;
+  font-family: 'Young Serif', serif;
+ margin-top:1px;
+  font-size: 15px;
+}
+.social-icons{
+  color:white;
+  height:25px;
+  width:25px;
+  padding:3px;
+}
+
+.footer-socials{
+  margin-left:50px;
+  margin-top:13px;
+}
+.footer-p{
+  justify-content: space-between;
+  margin-left:60px;
+}
+.footer-p p{
+  padding-bottom: 35px;
+  color:aquamarine;
+}
+.footer-items{
+  color:white;
+  margin-top:1px;
+  margin-left:30px;
+}
+.footer-form{
+  margin-left:40px;
+  margin-top:10px;
+padding:20px;
+}
+.text-color{
+  display: block;
+}
+
+
 }
