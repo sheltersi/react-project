@@ -117,13 +117,16 @@ We are more than you can imagine. </p><Button variant="contained">Book a Service
     </div>
     <form className="footer-form">
     <div class="txt1">
-    <TextField id="filled-basic" className="filledBasic"label="Email Address" variant="filled" />
+    <TextField id="filled-basic" 
+    className="filledBasic"
+    label="Type Email Address" 
+    variant="filled" />
     </div>
     <div class="txt2">
     <TextField
           id="outlined-textarea"
-          label="Email Message"
-          placeholder="Type email message"
+          label="Type Email Message ......."
+          placeholder="Email Message"
           multiline
           className="email-body"
         /></div>
@@ -136,6 +139,7 @@ We are more than you can imagine. </p><Button variant="contained">Book a Service
   
 <div class="footer-items">
 <p>Copyright &copy; 2023, All Rights Reserved.</p>
+<p class="shelter">Designed and Developed by Shelter Sibanda</p>
 </div>
 </div>
 
