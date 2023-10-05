@@ -1,0 +1,77 @@
+.contact{
+    display: flex;
+    height: 120vh;
+    padding-top:10px;
+    justify-content:flex-start;
+    font-size: 1rem;
+    background-color: rgba(4, 49, 34, 0.815);
+    color: #fff;
+    
+}
+
+.h1-contact{
+    text-align: center;
+    background-color:rgba(4, 49, 34, 0.815) ;
+    color:white;
+    padding-top:10px;
+    border-bottom: 6px solid #09bef0;
+    border-bottom-style: dashed;
+
+   
+}
+
+.contact h1{
+    border-bottom: 40px;
+    border-color: blue;
+}
+.picture{
+    height: 300px;
+    width:500px;
+}
+.picture-container{
+    margin-left: 110px;
+    margin-top:30px;
+    width: 400px;
+    height:85vh;
+}
+.hr{
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+.form{
+    background-color: white;
+    width:810px;
+    height:500px;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-left: 10px;
+  box-shadow: 5px 5px 8px black, 10px 10px 8px blue, 15px 15px 8px green;
+  margin: 20px;
+
+  
+}
+table{
+    border-spacing:30px;
+}
+
+.textfield{
+    width:340px;
+   padding-right:20px;
+}
+
+.form-blocks{
+ margin-bottom: 20px;
+justify-content: space-between;
+}
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+   
+    .contact {
+      font-size: 1.5rem;
+    }
+}
