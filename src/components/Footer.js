@@ -16,14 +16,14 @@ export default function Footer(){
             <div class="footer">
 <div class="footer-contents">
 <div class="footer-logo">
-<img src={Logo} className="footer-nav-logo"/><span class="footer-logo-text">Odims Engineering</span>
+<img src={Logo} alt="logo" className="footer-nav-logo"/><span class="footer-logo-text">Odims Engineering</span>
 </div>
-<div class="footer-socials">
+{/* <div class="footer-socials inline-flex items-baseline"></div> */}
+<div class="ml-60 pl-56 inline-flex items-baseline">
 <GrFacebook className="social-icons"/>  
 <GrLinkedin className="social-icons"/>
 <BsTwitter className="social-icons"/>
 <FaSquareInstagram className="social-icons"/>
-
 <TfiEmail className="social-icons"/>
 </div>
 </div>
