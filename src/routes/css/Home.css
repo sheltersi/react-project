@@ -66,7 +66,7 @@
 
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width: 600px){
     .testimonial-all-containers{
         display:inline-block;
         /* margin-left:10px; */
@@ -97,7 +97,7 @@
         }
 }
 
-@media only screen and (max-width:1120){
+@media only screen and (min-width: 600px){
     .testimonial-all-containers{
         display:inline-block;
         /* margin-left:10px; */
@@ -106,7 +106,7 @@
         outline-width: 4px;
         outline-width: 22%;
         background-color: cadetblue;
-        width: 370px;
+        width: 370px auto;
         text-align:center auto;
       }
       .testimonials{
@@ -117,7 +117,23 @@
     }
 }
 
-@media only screen and (max-width:940px){
+@media only screen and (min-width:768px){
+   
+    .testimonial-all-containers{
+        display:inline-block;
+        /* margin-left:10px; */
+        margin-top:50px;
+        outline-style:inset;
+        outline-width: 8px;
+        outline-width: 22%;
+        background-color: cadetblue;
+        width: 370px auto;
+        text-align:center auto;
+      }
+
+}
+
+@media only screen and (max-width:992px){
 
     .testimonials{
         width:100%;
@@ -138,7 +154,7 @@
       outline-width: 8px;
       outline-width: 22%;
       background-color: cadetblue;
-      width: 550px;
+      width: 550px auto;
       text-align:center auto;
     }
     
