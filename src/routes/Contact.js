@@ -28,22 +28,24 @@ function Contact(){
         <>
          <h1 className="h1-contact text-2xl md:text-4xl pb-6 pt-6 font-extrabold font-Young-serif text-slate-200">
          Get in Touch with us</h1>
+         <p></p>
+
+
         <div className="contact md:flex block">
         
        
-        <div className="picture-container border-y-slate-600">
+        <div className="picture-container items-center sm:ml-7 md:ml-10 border-y-slate-600">
         {/* <img src={Picture} alt="electricity-installation" className="picture"/> */}
-        <h3 className="text-xl font-bold text-red-600 md:text-white md:3xl md:font-extrabold">Talk to our support Team find out how we can help you</h3>
+        <h3 className="text-xl font-bold text-yellow-600 md:text-white md:3xl md:font-extrabold">Talk to our support Team find out how we can help you</h3>
         <hr className="hr pb-4 " />
-        <p>Fill out your information and an Odims Engineering representative will 
+        <p className="text-sm md:text-lg">Fill out your information and an Odims Engineering representative will 
         reach out to you. Have a simple question? Check out our FAQ.</p>
         </div>
 
 
-        <div className="form px-2 py-2 w-auto md:h-auto space-y-8">
 
-
-        <div class="order-1 space-y-5 space-x-1 gap-4 md:grid md:grid-cols-2 md:gap-8 items-center">
+        <div className="form px-2 py-2 w-auto md:h-auto mb-20">
+        <div class=" space-x-1 gap-4 md:grid md:grid-cols-2 md:gap-8 items-center">
         <div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
    Name
@@ -67,7 +69,7 @@ function Contact(){
     </div>
     <div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="phone-number">
-      Phone Number
+      SA Phone Number
       </label>
       <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
       leading-tight focus:outline-none focus:shadow-outline" id="phone-number" type="text" placeholder="phone-number"/>
@@ -159,10 +161,10 @@ function Contact(){
 <div className="col-span-2 "> 
 <p className="text-lg">What Would you like to discuss?</p>
 <textarea
-rows={6} className="
+rows={6} className=" text-sm md:text-lg
 placeholder:text-slate-400 block bg-white w-11/12
 border border-slate-300 rounded-md shadow-sm focus:outline-none
-focus:ring-sky-500 focus:ring-1" placeholder="  Ask Anything .............. "
+focus:ring-sky-500 focus:ring-1" placeholder="Ask Anything .............. "
 name="ask-txt"
 />
 </div>
@@ -173,21 +175,19 @@ name="ask-txt"
 <div className="col-span-2 "> <input type="checkbox" name="mycheckbox"
     className="block bg-white border border-slate-300"
 />
-<p className="text-lg">By checking the box and clicking "Submit", you are agreeing to Odims Engineering Privacy Statement</p>
+<p className="text-sm md:text-lg">By checking the box and clicking "Submit", you are agreeing to Odims Engineering Privacy Statement</p>
 </div>
 
 <div className="col-span-2 "> 
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-Submit
+<p className="text-sm md:text-lg">Submit</p>
 </button>
 </div>    
 
     
     </div>
 
-    <div class="grid grid-cols-2 gap-12">
-
-        </div>
+    
         </div>
         </div>
      

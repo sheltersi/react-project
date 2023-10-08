@@ -24,7 +24,7 @@
   .nav-logo{
     width: 120px;
     height:120px;
-    animation: rotation 5s infinite linear;
+    animation: rotation 10s infinite linear;
   }
 
   @keyframes rotation {

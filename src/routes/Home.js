@@ -3,12 +3,13 @@ import * as React from 'react';
 import Button  from '@mui/material/Button'; 
 import {RiAccountCircleFill} from 'react-icons/ri';
 import Footer from '../components/Footer'
+import './css/Home.css'
 
 
 function Home(){
     return(
         <>
-        <div className="home">
+        <div className="home md:text-2xl text-sm">
         <div >
             <h1 className="home-hero">We are a company of professional Electrical Engineers and Technicians that's dedicated to provide you
 with Electrical Solutions at your homes. <span className="hero-h1"> We are just One Call Away</span>
@@ -21,7 +22,7 @@ with Electrical Solutions at your homes. <span className="hero-h1"> We are just 
         <div className="testimonials">
         <h1>Here is what our clients say about us...</h1>
         
-        <div class="testimonial-all-containers">
+        <div class="testimonial-all-containers sm:ml-30  mx-auto ">
         <div class="testimonial-container">
         <span class="icon-text">
         <RiAccountCircleFill className="riaccount"/>

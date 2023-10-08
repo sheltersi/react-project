@@ -21,7 +21,7 @@ function Navbar() {
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
        
 
-<img src={Logo} className="nav-logo"/><span class="logo-text">Odims Engineering</span>
+<img src={Logo} alt="logo"className="nav-logo"/><span class="logo-text">Odims Engineering</span>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -39,7 +39,7 @@ function Navbar() {
                 </NavLink>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink
                   to="/services"
                   className={({ isActive }) =>
@@ -65,7 +65,27 @@ function Navbar() {
                   </span>
 </div>
                 </NavLink>
+              </li> */}
+
+
+
+
+              <li className="nav-item">
+                <NavLink
+                  to="/services"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Services
+                </NavLink>
               </li>
+
+
+
+
+
 
               <li className="nav-item">
                 <NavLink
