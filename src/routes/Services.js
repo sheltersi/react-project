@@ -24,8 +24,8 @@ function Services(){
 
 
         <div className="inline-flex">
-        <h1 className="content-start text-3xl font-extrabold text-blue-200">Get a Professional Electrical Engineer to help with your Electrical problems,
-            installations of everything Electricity, Cameras, gate motors, etc.</h1>
+        <h1 className="content-start text-3xl font-extrabold text-blue-200">Get Professional Electricians to help with your Electrical problems,
+            installation of everything Electricity, Cameras, gate motors, etc.</h1>
       
      
         <div className="image">
@@ -48,7 +48,7 @@ function Services(){
 </div>
 
 <h1 className="text-4xl text-orange-400 mt-20 font-extrabold">Electrical Solutions With Odims Engineering</h1>
-<p className="text-orange-200 text-sm pt-5">Odims Engineering is a Company of professional Engineers with more than 10 years of Experience</p>
+<p className="text-orange-200 text-sm pt-5">Odims Engineering is a Company of professional Electricians with more than 10 years of Experience</p>
 
 
 <div className=" flex justify-between ">
@@ -64,7 +64,7 @@ function Services(){
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 03
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Garage Motor.</p></div>
+</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Gates and Garage Motors.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 04
@@ -84,7 +84,7 @@ function Services(){
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 08
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Alarm System.</p></div>
+</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Alarm System Installation and Servicing.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 09
