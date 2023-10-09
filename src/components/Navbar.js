@@ -21,7 +21,7 @@ function Navbar() {
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
        
 
-<img src={Logo} alt="logo"className="nav-logo"/><span class="logo-text">Odims Engineering <span className="text-lg">(Pty) Ltd</span></span>
+<img src={Logo} alt="logo"className="nav-logo"/><span class="logo-text ">Odims Engineering <span className="text-lg">(Pty) Ltd</span></span>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

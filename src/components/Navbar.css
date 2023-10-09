@@ -39,9 +39,12 @@
   .logo-text{
   color:#bf8d39;
   font-family: 'Young Serif', serif;
+  margin-left:-20px;
   
   }
-
+  .logo-text1{
+   
+  }
 
   .navbar-container {
     display: flex;
