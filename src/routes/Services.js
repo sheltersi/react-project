@@ -20,11 +20,11 @@ function Services(){
         <>
         <div className="services">
       
-        <div className="services-page-info  ">
+        <div className="services-page-info mt-0  ">
 
 
-        <div className="inline-flex">
-        <h1 className="content-start text-3xl font-extrabold text-blue-200">Get Professional Electricians to help with your Electrical problems,
+        <div className="first-part inline-flex bg-[url('../assets/electrical-services-IMG/electrician-pic.jpg' )]">
+        <h1 className="content-start text-xl md:text-3xl md:first-letter:font-extrabold text-yellow-200 md:text-blue-200 text-center">Get Professional Electricians to help with your Electrical problems,
             installation of everything Electricity, Cameras, gate motors, etc.</h1>
       
      
@@ -32,10 +32,10 @@ function Services(){
 <img src={Image} alt="engineers" className="" />
         </div>
         </div>
-        <p>Contact Odims Engineering when facing Electrical Issues.</p>
+        <p className="text-sm md:text-lg">Contact Odims Engineering when facing Electrical Issues.</p>
 
 <div className="inline-flex mt-10">
-<div className="mr-20">
+<div className="md:mr-20 mr-10">
         <button class="bg-blue-500  hover:bg-blue-400 text-white text-lg font-bold py-2 px-4 border-b-4 border-blue-700
          hover:border-blue-500 rounded">
   View Services
@@ -47,7 +47,7 @@ function Services(){
 
 </div>
 
-<h1 className="text-4xl text-orange-400 mt-20 font-extrabold">Electrical Solutions With Odims Engineering</h1>
+<h1 className="md:text-4xl text-2xl text-orange-400 mt-20 font-extrabold">Electrical Solutions With Odims Engineering</h1>
 <p className="text-orange-200 text-sm pt-5">Odims Engineering is a Company of professional Electricians with more than 10 years of Experience</p>
 
 
@@ -56,54 +56,54 @@ function Services(){
 <div className="pt-4 sevisi">
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 01
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Full House, Office And Company Wiring.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Full House, Office And Company Wiring.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 02
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Electrical Fault Finding.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Electrical Fault Finding.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 03
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Gates and Garage Motors.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Gates and Garage Motors.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 04
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Electric Fencing.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Electric Fencing.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 05
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and servicing of Intercom System.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and servicing of Intercom System.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 06
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Access Control.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Access Control.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 07
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">CCTV Installation and Servicing.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">CCTV Installation and Servicing.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 08
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Alarm System Installation and Servicing.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Alarm System Installation and Servicing.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 09
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Power Backups.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Power Backups.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 10
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Swimming Pool Pumps.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Swimming Pool Pumps.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 11
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Borehole Pumps.</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Borehole Pumps.</p></div>
 
 <div className="pt-6 inline-flex"><button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
 12
-</button><p className="service1 text-lg font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Geyser</p></div>
+</button><p className="service1 text-sm md:text-lg font-bold md:font-extrabold pt-1 pl-3  hover:text-blue-200 ">Installation and Servicing of Geyser</p></div>
 </div>
 
-<div className="inline-block">
+<div className="inline-block service-imgs">
 <div className="sliding-pics pt-8">
 <img src={Image1} alt="electricity" />
 </div>
@@ -121,12 +121,12 @@ Book A Service With Us</div>
 
 <div className="pt-10 w-full bg-slate-400 pb-6 ">
 
-<div className="grid grid-cols-2 gap-3 ml-10">
+<div className="md:grid md:grid-cols-2  gap-3 md:ml-10 ml-1 mr-1">
 <div><div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
         First Name/ Names
       </label>
-      <input class="shadow appearance-none border rounded w-4/5 py-2 px-3 text-gray-700 leading-tight 
+      <input class="shadow appearance-none border rounded md:w-4/5 w-full py-2 px-3 text-gray-700 leading-tight 
       focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="first names...."/>
     </div>
    </div>
@@ -134,7 +134,7 @@ Book A Service With Us</div>
       <label class="block text-gray-700 text-sm font-bold mb-2" for="surname">
         Surname
       </label>
-      <input class="shadow appearance-none border rounded w-4/5 py-2 px-3 text-gray-700 leading-tight 
+      <input class="shadow appearance-none border rounded md:w-4/5 w-full py-2 px-3 text-gray-700 leading-tight 
       focus:outline-none focus:shadow-outline" id="surname" type="text" placeholder="Surname....."/>
     </div>
    </div>
@@ -142,7 +142,7 @@ Book A Service With Us</div>
       <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
        Email Address
       </label>
-      <input class="shadow appearance-none border rounded w-4/5 py-2 px-3 text-gray-700 leading-tight 
+      <input class="shadow appearance-none border rounded md:w-4/5 w-full py-2 px-3 text-gray-700 leading-tight 
       focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email address....."/>
     </div>
    </div>
@@ -150,7 +150,7 @@ Book A Service With Us</div>
       <label class="block text-gray-700 text-sm font-bold mb-2" for="number">
        Phone Number
       </label>
-      <input class="shadow appearance-none border rounded w-4/5 py-2 px-3 text-gray-700 leading-tight 
+      <input class="shadow appearance-none border rounded md:w-4/5 w-full py-2 px-3 text-gray-700 leading-tight 
       focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="(081) 000........."/>
     </div>
    </div>
@@ -228,7 +228,7 @@ name="ask-txt"
 />
 </div>
 
-<div className="col-span-2 justify-end text-right mr-20 "> 
+<div className="col-span-2 justify-end text-right mr-10 md:mr-20 mt-2  "> 
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
 <p className="text-sm md:text-lg flex">Submit <BsSendFill className="mt-2 ml-2"/> </p>
 </button>

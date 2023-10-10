@@ -1,3 +1,5 @@
+ 
+
 .services{
     
         /* display: flex; */
@@ -35,4 +37,34 @@ cursor: pointer;
 
 .sliding-pics{
     width: 400px;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .services-page-info{
+        margin-left:0px;
+        padding-top:0px;
+        margin-right:0px;
+    }
+
+    .first-part{
+        height:300px;
+     background:no-repeat url("../../assets/electrical-services-IMG/electrician-pic.jpg");
+    background-size: cover;
+     
+    }
+    .first-part h1 {
+        background-color: rgba(64, 47, 161, 0.8);
+        padding-top: 90px;
+    }
+
+
+.image{
+    display:none;
+}
+
+.service-imgs{
+    display:none;
+}
 }
