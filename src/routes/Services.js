@@ -24,15 +24,15 @@ function Services(){
 
 
         <div className="first-part inline-flex bg-[url('../assets/electrical-services-IMG/electrician-pic.jpg' )]">
-        <h1 className="content-start text-xl md:text-3xl md:first-letter:font-extrabold text-yellow-200 md:text-blue-200 text-center">Get Professional Electricians to help with your Electrical problems,
+        <h1 className="content-start text-xl md:text-3xl md:first-letter:font-extrabold text-yellow-200 md:text-blue-100 text-center ml-4">Get Professional Electricians to help with your Electrical problems,
             installation of everything Electricity, Cameras, gate motors, etc.</h1>
       
      
         <div className="image">
-<img src={Image} alt="engineers" className="" />
+<img src={Image} alt="engineers" className="w-4/5 h-80" />
         </div>
         </div>
-        <p className="text-sm md:text-lg">Contact Odims Engineering when facing Electrical Issues.</p>
+        <p className="md:pt-10 text-sm md:text-lg">Contact Odims Engineering when facing Electrical Issues.</p>
 
 <div className="inline-flex mt-10">
 <div className="md:mr-20 mr-10">
