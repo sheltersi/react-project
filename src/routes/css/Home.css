@@ -152,8 +152,9 @@
       /* margin-left:10px; */
       margin-top:50px;
       outline-style:inset;
-      outline-width: 8px;
-      outline-width: 22%;
+      outline-width: 4px;
+      outline-width: 11%;
+      outline-color: red;
       background-color: cadetblue;
       width: 550px auto;
       text-align:center auto;
