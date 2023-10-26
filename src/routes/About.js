@@ -18,7 +18,6 @@ function About(){
    TEAM WILL DO AN EXCELLENT SERVICE <br/> 
    FOR YOU</p>
 
-
    <div className="ml-1 mt-8 md:ml-40">
     <i class="fa-solid fa-check text-orange-500 ml-4 md:ml-40 mt-4 font-extrabold text-1xl"></i>
     <span className="ml-3">We're Here When You Need Us.</span>
@@ -40,7 +39,7 @@ function About(){
    CCTV installations, Garage & Gate motor installations And Many More....</span>
     </div>
 
-<div className=" ml-2 md:ml-40 mt-6">
+<div className="  md:ml-40 mt-10 text-center md:text-left md:mt-6">
   <button className="bg-blue-600 rounded-3xl py-2 px-6">Book A Service<i class="fa-solid fa-paper-plane"></i></button>
 </div>
 
