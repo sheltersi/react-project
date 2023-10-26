@@ -61,10 +61,13 @@ function About(){
 <div class="our-team">
   <div className="team">
     <div class="team-body text-center  md:mx-40 pt-6">
-    <h1 className="text-3xl font-extralight text-orange-500 mb-4 m-0">Our <span className="bg-orange-500 py-2 px-2 text-white">Team</span></h1>
-<p className="w-full mx-2 mt-2 text-center text-xl font-bold">Our Team is what makes our company. We have a team of talented proffessionals, Welding specialists, 
+    <h1 className="ml-3 text-3xl font-extralight text-orange-500 mb-4 m-0">Our <span className="bg-orange-500 py-2 px-2 text-white">Team</span></h1>
+<div className="text-center mr-2  ml-8">
+  <p className="w-full md:w-3/5  md:mx-2 mt-2 text-center text-lg md:text-xl font-bold">Our Team is what makes our company. We have a team of talented proffessionals, Welding specialists, 
   Plumbing specialists and more.... who can solve your problems.
 </p>
+</div>
+
 
 
   </div>
