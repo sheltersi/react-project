@@ -1,0 +1,46 @@
+.about-us{
+    background: url('../../assets/images/electrician-about-page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+height:600px;
+background-color:rgba(64, 47, 161, 0.8);
+    
+}
+
+.hero{
+    background-color:rgba(64, 47, 161, 0.8);
+    height:600px;
+    color:white;
+
+}
+
+.hero p{
+    font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.our-team{
+    background-image: url('../../assets/images/tm2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+
+}
+.team{
+    background-color:rgba(64, 47, 161, 0.8);
+    height:450px;
+    color:white;
+}
+.team-body{
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .our-team{
+        height:540px;
+    }
+   .team{
+    height:540px
+   }
+}

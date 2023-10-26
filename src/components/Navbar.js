@@ -101,9 +101,8 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  // to="/about"
-                  to="/"
-                  className={({ isActive }) =>
+                  to="/about"
+                                  className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
                   onClick={closeMobileMenu}
