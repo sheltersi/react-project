@@ -19,22 +19,22 @@ function About(){
    FOR YOU</p>
 
 
-   <div className="ml-2 mt-8 md:ml-40">
+   <div className="ml-1 mt-8 md:ml-40">
     <i class="fa-solid fa-check text-orange-500 ml-4 md:ml-40 mt-4 font-extrabold text-1xl"></i>
     <span className="ml-3">We're Here When You Need Us.</span>
     </div>
     
-   <div className=" ml-2 md:ml-40">
+   <div className=" ml-1 md:ml-40">
     <i class="fa-solid fa-check text-orange-500 ml-2 md:ml-40 mt-4 font-extrabold text-2xl"></i>
     <span className="ml-3">Garanteed Services No Matter where you are located.</span>
     </div>
     
-   <div className=" ml-2 md:ml-40">
+   <div className=" ml-1 md:ml-40">
     <i class="fa-solid fa-check text-orange-500 ml-2 md:ml-40 mt-4 font-extrabold text-2xl"></i>
     <span className="ml-3">Tell us your needs and we are here to serve you.</span>
     </div>
     
-   <div className=" ml-2 md:ml-40">
+   <div className=" ml-1 md:ml-40">
     <i class="fa-solid fa-check text-orange-500 ml-2 md:ml-40 mt-4 font-extrabold text-2xl"></i>
     <span className="ml-3">From electrical fault solutions, Welding services, plumbing services, 
    CCTV installations, Garage & Gate motor installations And Many More....</span>
